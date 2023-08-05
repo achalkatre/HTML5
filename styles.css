@@ -1,0 +1,103 @@
+.abc{
+      margin: 10px;
+  padding: 5px;
+  background-color: lightgray;
+}
+.browser{
+    background-color:rgba(250, 219, 222, 1);
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.pp{
+    width: 500px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color:whitesmoke;
+    width: 500px;
+}
+.centered{
+    position: absolute;
+    top: 24px;;
+    left: 20px;
+    
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+body {
+    background-color: lightgray;
+    font-family: 'Markazi text';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+header > img{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.nn{
+    position: relative;
+    text-align: center;
+    width: 500px;
+    background-color: teal;
+}
+.nn > ul, li, a{
+    display: block;
+    color:whitesmoke;
+    padding: 4px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+a:hover {
+  background-color: yellow;
+}
+
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+footer {
+    padding: .5em; 
+    font-size: 0.8em; 
+    width: 100%;
+    overflow: hidden;
+ }
+
+.left { 
+    float: left;
+ }
+.right { float: right; }
+
+hr{
+    color: black;
+    width: 100p;
+    
+}
